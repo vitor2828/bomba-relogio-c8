@@ -1,0 +1,12 @@
+o armazenador de senhas eh composto por flip flops com enable
+
+o enable sera o botao start, que sera seguido por uma porta not
+e conectado a cada enable do banco de flip flops. o start deve ser
+apertado apenas quando as senhas ja tiverem sido determinadas, e nao podera
+mais ser apertado, pois mudaria o valor dos flip flops
+
+o primeiro banco de flip flops eh o da senha A, correspondente as 
+chaves SW[17:14]. O segundo banco eh o da senha B, que tem as chaves
+SW[13:11].
+
+bem simples, jah da pra fazer
