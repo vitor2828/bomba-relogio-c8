@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for projeto_final
-Fri Nov  7 02:36:06 2025
+Fri Nov  7 07:49:31 2025
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -153,20 +153,20 @@ No paths to report.
 ; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; inst|q[1]|datac                           ;
 ; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; inst|q[2]|datac                           ;
 ; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; inst|q[2]|datac                           ;
-; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Fall       ; register_senha_A:registrador_senha_A|q[0] ;
-; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Fall       ; register_senha_A:registrador_senha_A|q[0] ;
-; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Fall       ; register_senha_A:registrador_senha_A|q[1] ;
-; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Fall       ; register_senha_A:registrador_senha_A|q[1] ;
-; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Fall       ; register_senha_A:registrador_senha_A|q[2] ;
-; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Fall       ; register_senha_A:registrador_senha_A|q[2] ;
-; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Fall       ; register_senha_A:registrador_senha_A|q[3] ;
-; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Fall       ; register_senha_A:registrador_senha_A|q[3] ;
-; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Fall       ; register_senha_B:inst|q[0]                ;
-; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Fall       ; register_senha_B:inst|q[0]                ;
-; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Fall       ; register_senha_B:inst|q[1]                ;
-; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Fall       ; register_senha_B:inst|q[1]                ;
-; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Fall       ; register_senha_B:inst|q[2]                ;
-; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Fall       ; register_senha_B:inst|q[2]                ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; register_senha_A:registrador_senha_A|q[0] ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; register_senha_A:registrador_senha_A|q[0] ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; register_senha_A:registrador_senha_A|q[1] ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; register_senha_A:registrador_senha_A|q[1] ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; register_senha_A:registrador_senha_A|q[2] ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; register_senha_A:registrador_senha_A|q[2] ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; register_senha_A:registrador_senha_A|q[3] ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; register_senha_A:registrador_senha_A|q[3] ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; register_senha_B:inst|q[0]                ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; register_senha_B:inst|q[0]                ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; register_senha_B:inst|q[1]                ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; register_senha_B:inst|q[1]                ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; register_senha_B:inst|q[2]                ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; register_senha_B:inst|q[2]                ;
 ; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; registrador_senha_A|q[0]|datac            ;
 ; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; registrador_senha_A|q[0]|datac            ;
 ; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; registrador_senha_A|q[1]|datad            ;
@@ -183,14 +183,14 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; SW[*]     ; START      ; 4.131  ; 4.131  ; Fall       ; START           ;
-;  SW[11]   ; START      ; 4.029  ; 4.029  ; Fall       ; START           ;
-;  SW[12]   ; START      ; 3.941  ; 3.941  ; Fall       ; START           ;
-;  SW[13]   ; START      ; 3.707  ; 3.707  ; Fall       ; START           ;
-;  SW[14]   ; START      ; 4.028  ; 4.028  ; Fall       ; START           ;
-;  SW[15]   ; START      ; 4.131  ; 4.131  ; Fall       ; START           ;
-;  SW[16]   ; START      ; 3.719  ; 3.719  ; Fall       ; START           ;
-;  SW[17]   ; START      ; -0.058 ; -0.058 ; Fall       ; START           ;
+; SW[*]     ; START      ; 4.134  ; 4.134  ; Rise       ; START           ;
+;  SW[11]   ; START      ; 4.030  ; 4.030  ; Rise       ; START           ;
+;  SW[12]   ; START      ; 3.941  ; 3.941  ; Rise       ; START           ;
+;  SW[13]   ; START      ; 3.708  ; 3.708  ; Rise       ; START           ;
+;  SW[14]   ; START      ; 4.028  ; 4.028  ; Rise       ; START           ;
+;  SW[15]   ; START      ; 4.134  ; 4.134  ; Rise       ; START           ;
+;  SW[16]   ; START      ; 3.719  ; 3.719  ; Rise       ; START           ;
+;  SW[17]   ; START      ; -0.057 ; -0.057 ; Rise       ; START           ;
 +-----------+------------+--------+--------+------------+-----------------+
 
 
@@ -199,14 +199,14 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; SW[*]     ; START      ; 0.726  ; 0.726  ; Fall       ; START           ;
-;  SW[11]   ; START      ; -3.361 ; -3.361 ; Fall       ; START           ;
-;  SW[12]   ; START      ; -3.273 ; -3.273 ; Fall       ; START           ;
-;  SW[13]   ; START      ; -3.032 ; -3.032 ; Fall       ; START           ;
-;  SW[14]   ; START      ; -3.360 ; -3.360 ; Fall       ; START           ;
-;  SW[15]   ; START      ; -3.313 ; -3.313 ; Fall       ; START           ;
-;  SW[16]   ; START      ; -3.051 ; -3.051 ; Fall       ; START           ;
-;  SW[17]   ; START      ; 0.726  ; 0.726  ; Fall       ; START           ;
+; SW[*]     ; START      ; 0.721  ; 0.721  ; Rise       ; START           ;
+;  SW[11]   ; START      ; -3.366 ; -3.366 ; Rise       ; START           ;
+;  SW[12]   ; START      ; -3.277 ; -3.277 ; Rise       ; START           ;
+;  SW[13]   ; START      ; -3.037 ; -3.037 ; Rise       ; START           ;
+;  SW[14]   ; START      ; -3.364 ; -3.364 ; Rise       ; START           ;
+;  SW[15]   ; START      ; -3.317 ; -3.317 ; Rise       ; START           ;
+;  SW[16]   ; START      ; -3.055 ; -3.055 ; Rise       ; START           ;
+;  SW[17]   ; START      ; 0.721  ; 0.721  ; Rise       ; START           ;
 +-----------+------------+--------+--------+------------+-----------------+
 
 
@@ -215,15 +215,15 @@ No paths to report.
 +-------------+------------+-------+-------+------------+-----------------+
 ; Data Port   ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-------------+------------+-------+-------+------------+-----------------+
-; SENHA_A[*]  ; START      ; 6.133 ; 6.133 ; Fall       ; START           ;
-;  SENHA_A[0] ; START      ; 6.129 ; 6.129 ; Fall       ; START           ;
-;  SENHA_A[1] ; START      ; 5.994 ; 5.994 ; Fall       ; START           ;
-;  SENHA_A[2] ; START      ; 5.827 ; 5.827 ; Fall       ; START           ;
-;  SENHA_A[3] ; START      ; 6.133 ; 6.133 ; Fall       ; START           ;
-; SENHA_B[*]  ; START      ; 6.134 ; 6.134 ; Fall       ; START           ;
-;  SENHA_B[0] ; START      ; 6.134 ; 6.134 ; Fall       ; START           ;
-;  SENHA_B[1] ; START      ; 6.133 ; 6.133 ; Fall       ; START           ;
-;  SENHA_B[2] ; START      ; 5.868 ; 5.868 ; Fall       ; START           ;
+; SENHA_A[*]  ; START      ; 6.129 ; 6.129 ; Rise       ; START           ;
+;  SENHA_A[0] ; START      ; 6.125 ; 6.125 ; Rise       ; START           ;
+;  SENHA_A[1] ; START      ; 5.994 ; 5.994 ; Rise       ; START           ;
+;  SENHA_A[2] ; START      ; 5.823 ; 5.823 ; Rise       ; START           ;
+;  SENHA_A[3] ; START      ; 6.129 ; 6.129 ; Rise       ; START           ;
+; SENHA_B[*]  ; START      ; 6.130 ; 6.130 ; Rise       ; START           ;
+;  SENHA_B[0] ; START      ; 6.130 ; 6.130 ; Rise       ; START           ;
+;  SENHA_B[1] ; START      ; 6.129 ; 6.129 ; Rise       ; START           ;
+;  SENHA_B[2] ; START      ; 5.864 ; 5.864 ; Rise       ; START           ;
 +-------------+------------+-------+-------+------------+-----------------+
 
 
@@ -232,15 +232,15 @@ No paths to report.
 +-------------+------------+-------+-------+------------+-----------------+
 ; Data Port   ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-------------+------------+-------+-------+------------+-----------------+
-; SENHA_A[*]  ; START      ; 5.827 ; 5.827 ; Fall       ; START           ;
-;  SENHA_A[0] ; START      ; 6.129 ; 6.129 ; Fall       ; START           ;
-;  SENHA_A[1] ; START      ; 5.994 ; 5.994 ; Fall       ; START           ;
-;  SENHA_A[2] ; START      ; 5.827 ; 5.827 ; Fall       ; START           ;
-;  SENHA_A[3] ; START      ; 6.133 ; 6.133 ; Fall       ; START           ;
-; SENHA_B[*]  ; START      ; 5.868 ; 5.868 ; Fall       ; START           ;
-;  SENHA_B[0] ; START      ; 6.134 ; 6.134 ; Fall       ; START           ;
-;  SENHA_B[1] ; START      ; 6.133 ; 6.133 ; Fall       ; START           ;
-;  SENHA_B[2] ; START      ; 5.868 ; 5.868 ; Fall       ; START           ;
+; SENHA_A[*]  ; START      ; 5.823 ; 5.823 ; Rise       ; START           ;
+;  SENHA_A[0] ; START      ; 6.125 ; 6.125 ; Rise       ; START           ;
+;  SENHA_A[1] ; START      ; 5.994 ; 5.994 ; Rise       ; START           ;
+;  SENHA_A[2] ; START      ; 5.823 ; 5.823 ; Rise       ; START           ;
+;  SENHA_A[3] ; START      ; 6.129 ; 6.129 ; Rise       ; START           ;
+; SENHA_B[*]  ; START      ; 5.864 ; 5.864 ; Rise       ; START           ;
+;  SENHA_B[0] ; START      ; 6.130 ; 6.130 ; Rise       ; START           ;
+;  SENHA_B[1] ; START      ; 6.129 ; 6.129 ; Rise       ; START           ;
+;  SENHA_B[2] ; START      ; 5.864 ; 5.864 ; Rise       ; START           ;
 +-------------+------------+-------+-------+------------+-----------------+
 
 
@@ -295,20 +295,20 @@ No paths to report.
 ; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; inst|q[1]|datac                           ;
 ; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; inst|q[2]|datac                           ;
 ; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; inst|q[2]|datac                           ;
-; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Fall       ; register_senha_A:registrador_senha_A|q[0] ;
-; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Fall       ; register_senha_A:registrador_senha_A|q[0] ;
-; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Fall       ; register_senha_A:registrador_senha_A|q[1] ;
-; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Fall       ; register_senha_A:registrador_senha_A|q[1] ;
-; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Fall       ; register_senha_A:registrador_senha_A|q[2] ;
-; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Fall       ; register_senha_A:registrador_senha_A|q[2] ;
-; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Fall       ; register_senha_A:registrador_senha_A|q[3] ;
-; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Fall       ; register_senha_A:registrador_senha_A|q[3] ;
-; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Fall       ; register_senha_B:inst|q[0]                ;
-; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Fall       ; register_senha_B:inst|q[0]                ;
-; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Fall       ; register_senha_B:inst|q[1]                ;
-; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Fall       ; register_senha_B:inst|q[1]                ;
-; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Fall       ; register_senha_B:inst|q[2]                ;
-; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Fall       ; register_senha_B:inst|q[2]                ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; register_senha_A:registrador_senha_A|q[0] ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; register_senha_A:registrador_senha_A|q[0] ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; register_senha_A:registrador_senha_A|q[1] ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; register_senha_A:registrador_senha_A|q[1] ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; register_senha_A:registrador_senha_A|q[2] ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; register_senha_A:registrador_senha_A|q[2] ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; register_senha_A:registrador_senha_A|q[3] ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; register_senha_A:registrador_senha_A|q[3] ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; register_senha_B:inst|q[0]                ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; register_senha_B:inst|q[0]                ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; register_senha_B:inst|q[1]                ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; register_senha_B:inst|q[1]                ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; register_senha_B:inst|q[2]                ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; register_senha_B:inst|q[2]                ;
 ; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; registrador_senha_A|q[0]|datac            ;
 ; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; START ; Rise       ; registrador_senha_A|q[0]|datac            ;
 ; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; START ; Rise       ; registrador_senha_A|q[1]|datad            ;
@@ -325,14 +325,14 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; SW[*]     ; START      ; 2.210  ; 2.210  ; Fall       ; START           ;
-;  SW[11]   ; START      ; 2.179  ; 2.179  ; Fall       ; START           ;
-;  SW[12]   ; START      ; 2.137  ; 2.137  ; Fall       ; START           ;
-;  SW[13]   ; START      ; 2.057  ; 2.057  ; Fall       ; START           ;
-;  SW[14]   ; START      ; 2.163  ; 2.163  ; Fall       ; START           ;
-;  SW[15]   ; START      ; 2.210  ; 2.210  ; Fall       ; START           ;
-;  SW[16]   ; START      ; 2.084  ; 2.084  ; Fall       ; START           ;
-;  SW[17]   ; START      ; -0.332 ; -0.332 ; Fall       ; START           ;
+; SW[*]     ; START      ; 2.212  ; 2.212  ; Rise       ; START           ;
+;  SW[11]   ; START      ; 2.179  ; 2.179  ; Rise       ; START           ;
+;  SW[12]   ; START      ; 2.137  ; 2.137  ; Rise       ; START           ;
+;  SW[13]   ; START      ; 2.057  ; 2.057  ; Rise       ; START           ;
+;  SW[14]   ; START      ; 2.163  ; 2.163  ; Rise       ; START           ;
+;  SW[15]   ; START      ; 2.212  ; 2.212  ; Rise       ; START           ;
+;  SW[16]   ; START      ; 2.084  ; 2.084  ; Rise       ; START           ;
+;  SW[17]   ; START      ; -0.332 ; -0.332 ; Rise       ; START           ;
 +-----------+------------+--------+--------+------------+-----------------+
 
 
@@ -341,14 +341,14 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; SW[*]     ; START      ; 0.600  ; 0.600  ; Fall       ; START           ;
-;  SW[11]   ; START      ; -1.911 ; -1.911 ; Fall       ; START           ;
-;  SW[12]   ; START      ; -1.869 ; -1.869 ; Fall       ; START           ;
-;  SW[13]   ; START      ; -1.786 ; -1.786 ; Fall       ; START           ;
-;  SW[14]   ; START      ; -1.895 ; -1.895 ; Fall       ; START           ;
-;  SW[15]   ; START      ; -1.872 ; -1.872 ; Fall       ; START           ;
-;  SW[16]   ; START      ; -1.816 ; -1.816 ; Fall       ; START           ;
-;  SW[17]   ; START      ; 0.600  ; 0.600  ; Fall       ; START           ;
+; SW[*]     ; START      ; 0.600  ; 0.600  ; Rise       ; START           ;
+;  SW[11]   ; START      ; -1.911 ; -1.911 ; Rise       ; START           ;
+;  SW[12]   ; START      ; -1.869 ; -1.869 ; Rise       ; START           ;
+;  SW[13]   ; START      ; -1.786 ; -1.786 ; Rise       ; START           ;
+;  SW[14]   ; START      ; -1.895 ; -1.895 ; Rise       ; START           ;
+;  SW[15]   ; START      ; -1.869 ; -1.869 ; Rise       ; START           ;
+;  SW[16]   ; START      ; -1.816 ; -1.816 ; Rise       ; START           ;
+;  SW[17]   ; START      ; 0.600  ; 0.600  ; Rise       ; START           ;
 +-----------+------------+--------+--------+------------+-----------------+
 
 
@@ -357,15 +357,15 @@ No paths to report.
 +-------------+------------+-------+-------+------------+-----------------+
 ; Data Port   ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-------------+------------+-------+-------+------------+-----------------+
-; SENHA_A[*]  ; START      ; 3.410 ; 3.410 ; Fall       ; START           ;
-;  SENHA_A[0] ; START      ; 3.407 ; 3.407 ; Fall       ; START           ;
-;  SENHA_A[1] ; START      ; 3.356 ; 3.356 ; Fall       ; START           ;
-;  SENHA_A[2] ; START      ; 3.208 ; 3.208 ; Fall       ; START           ;
-;  SENHA_A[3] ; START      ; 3.410 ; 3.410 ; Fall       ; START           ;
-; SENHA_B[*]  ; START      ; 3.414 ; 3.414 ; Fall       ; START           ;
-;  SENHA_B[0] ; START      ; 3.414 ; 3.414 ; Fall       ; START           ;
-;  SENHA_B[1] ; START      ; 3.354 ; 3.354 ; Fall       ; START           ;
-;  SENHA_B[2] ; START      ; 3.248 ; 3.248 ; Fall       ; START           ;
+; SENHA_A[*]  ; START      ; 3.410 ; 3.410 ; Rise       ; START           ;
+;  SENHA_A[0] ; START      ; 3.407 ; 3.407 ; Rise       ; START           ;
+;  SENHA_A[1] ; START      ; 3.356 ; 3.356 ; Rise       ; START           ;
+;  SENHA_A[2] ; START      ; 3.208 ; 3.208 ; Rise       ; START           ;
+;  SENHA_A[3] ; START      ; 3.410 ; 3.410 ; Rise       ; START           ;
+; SENHA_B[*]  ; START      ; 3.414 ; 3.414 ; Rise       ; START           ;
+;  SENHA_B[0] ; START      ; 3.414 ; 3.414 ; Rise       ; START           ;
+;  SENHA_B[1] ; START      ; 3.354 ; 3.354 ; Rise       ; START           ;
+;  SENHA_B[2] ; START      ; 3.248 ; 3.248 ; Rise       ; START           ;
 +-------------+------------+-------+-------+------------+-----------------+
 
 
@@ -374,15 +374,15 @@ No paths to report.
 +-------------+------------+-------+-------+------------+-----------------+
 ; Data Port   ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-------------+------------+-------+-------+------------+-----------------+
-; SENHA_A[*]  ; START      ; 3.208 ; 3.208 ; Fall       ; START           ;
-;  SENHA_A[0] ; START      ; 3.407 ; 3.407 ; Fall       ; START           ;
-;  SENHA_A[1] ; START      ; 3.356 ; 3.356 ; Fall       ; START           ;
-;  SENHA_A[2] ; START      ; 3.208 ; 3.208 ; Fall       ; START           ;
-;  SENHA_A[3] ; START      ; 3.410 ; 3.410 ; Fall       ; START           ;
-; SENHA_B[*]  ; START      ; 3.248 ; 3.248 ; Fall       ; START           ;
-;  SENHA_B[0] ; START      ; 3.414 ; 3.414 ; Fall       ; START           ;
-;  SENHA_B[1] ; START      ; 3.354 ; 3.354 ; Fall       ; START           ;
-;  SENHA_B[2] ; START      ; 3.248 ; 3.248 ; Fall       ; START           ;
+; SENHA_A[*]  ; START      ; 3.208 ; 3.208 ; Rise       ; START           ;
+;  SENHA_A[0] ; START      ; 3.407 ; 3.407 ; Rise       ; START           ;
+;  SENHA_A[1] ; START      ; 3.356 ; 3.356 ; Rise       ; START           ;
+;  SENHA_A[2] ; START      ; 3.208 ; 3.208 ; Rise       ; START           ;
+;  SENHA_A[3] ; START      ; 3.410 ; 3.410 ; Rise       ; START           ;
+; SENHA_B[*]  ; START      ; 3.248 ; 3.248 ; Rise       ; START           ;
+;  SENHA_B[0] ; START      ; 3.414 ; 3.414 ; Rise       ; START           ;
+;  SENHA_B[1] ; START      ; 3.354 ; 3.354 ; Rise       ; START           ;
+;  SENHA_B[2] ; START      ; 3.248 ; 3.248 ; Rise       ; START           ;
 +-------------+------------+-------+-------+------------+-----------------+
 
 
@@ -403,14 +403,14 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; SW[*]     ; START      ; 4.131  ; 4.131  ; Fall       ; START           ;
-;  SW[11]   ; START      ; 4.029  ; 4.029  ; Fall       ; START           ;
-;  SW[12]   ; START      ; 3.941  ; 3.941  ; Fall       ; START           ;
-;  SW[13]   ; START      ; 3.707  ; 3.707  ; Fall       ; START           ;
-;  SW[14]   ; START      ; 4.028  ; 4.028  ; Fall       ; START           ;
-;  SW[15]   ; START      ; 4.131  ; 4.131  ; Fall       ; START           ;
-;  SW[16]   ; START      ; 3.719  ; 3.719  ; Fall       ; START           ;
-;  SW[17]   ; START      ; -0.058 ; -0.058 ; Fall       ; START           ;
+; SW[*]     ; START      ; 4.134  ; 4.134  ; Rise       ; START           ;
+;  SW[11]   ; START      ; 4.030  ; 4.030  ; Rise       ; START           ;
+;  SW[12]   ; START      ; 3.941  ; 3.941  ; Rise       ; START           ;
+;  SW[13]   ; START      ; 3.708  ; 3.708  ; Rise       ; START           ;
+;  SW[14]   ; START      ; 4.028  ; 4.028  ; Rise       ; START           ;
+;  SW[15]   ; START      ; 4.134  ; 4.134  ; Rise       ; START           ;
+;  SW[16]   ; START      ; 3.719  ; 3.719  ; Rise       ; START           ;
+;  SW[17]   ; START      ; -0.057 ; -0.057 ; Rise       ; START           ;
 +-----------+------------+--------+--------+------------+-----------------+
 
 
@@ -419,14 +419,14 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; SW[*]     ; START      ; 0.726  ; 0.726  ; Fall       ; START           ;
-;  SW[11]   ; START      ; -1.911 ; -1.911 ; Fall       ; START           ;
-;  SW[12]   ; START      ; -1.869 ; -1.869 ; Fall       ; START           ;
-;  SW[13]   ; START      ; -1.786 ; -1.786 ; Fall       ; START           ;
-;  SW[14]   ; START      ; -1.895 ; -1.895 ; Fall       ; START           ;
-;  SW[15]   ; START      ; -1.872 ; -1.872 ; Fall       ; START           ;
-;  SW[16]   ; START      ; -1.816 ; -1.816 ; Fall       ; START           ;
-;  SW[17]   ; START      ; 0.726  ; 0.726  ; Fall       ; START           ;
+; SW[*]     ; START      ; 0.721  ; 0.721  ; Rise       ; START           ;
+;  SW[11]   ; START      ; -1.911 ; -1.911 ; Rise       ; START           ;
+;  SW[12]   ; START      ; -1.869 ; -1.869 ; Rise       ; START           ;
+;  SW[13]   ; START      ; -1.786 ; -1.786 ; Rise       ; START           ;
+;  SW[14]   ; START      ; -1.895 ; -1.895 ; Rise       ; START           ;
+;  SW[15]   ; START      ; -1.869 ; -1.869 ; Rise       ; START           ;
+;  SW[16]   ; START      ; -1.816 ; -1.816 ; Rise       ; START           ;
+;  SW[17]   ; START      ; 0.721  ; 0.721  ; Rise       ; START           ;
 +-----------+------------+--------+--------+------------+-----------------+
 
 
@@ -435,15 +435,15 @@ No paths to report.
 +-------------+------------+-------+-------+------------+-----------------+
 ; Data Port   ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-------------+------------+-------+-------+------------+-----------------+
-; SENHA_A[*]  ; START      ; 6.133 ; 6.133 ; Fall       ; START           ;
-;  SENHA_A[0] ; START      ; 6.129 ; 6.129 ; Fall       ; START           ;
-;  SENHA_A[1] ; START      ; 5.994 ; 5.994 ; Fall       ; START           ;
-;  SENHA_A[2] ; START      ; 5.827 ; 5.827 ; Fall       ; START           ;
-;  SENHA_A[3] ; START      ; 6.133 ; 6.133 ; Fall       ; START           ;
-; SENHA_B[*]  ; START      ; 6.134 ; 6.134 ; Fall       ; START           ;
-;  SENHA_B[0] ; START      ; 6.134 ; 6.134 ; Fall       ; START           ;
-;  SENHA_B[1] ; START      ; 6.133 ; 6.133 ; Fall       ; START           ;
-;  SENHA_B[2] ; START      ; 5.868 ; 5.868 ; Fall       ; START           ;
+; SENHA_A[*]  ; START      ; 6.129 ; 6.129 ; Rise       ; START           ;
+;  SENHA_A[0] ; START      ; 6.125 ; 6.125 ; Rise       ; START           ;
+;  SENHA_A[1] ; START      ; 5.994 ; 5.994 ; Rise       ; START           ;
+;  SENHA_A[2] ; START      ; 5.823 ; 5.823 ; Rise       ; START           ;
+;  SENHA_A[3] ; START      ; 6.129 ; 6.129 ; Rise       ; START           ;
+; SENHA_B[*]  ; START      ; 6.130 ; 6.130 ; Rise       ; START           ;
+;  SENHA_B[0] ; START      ; 6.130 ; 6.130 ; Rise       ; START           ;
+;  SENHA_B[1] ; START      ; 6.129 ; 6.129 ; Rise       ; START           ;
+;  SENHA_B[2] ; START      ; 5.864 ; 5.864 ; Rise       ; START           ;
 +-------------+------------+-------+-------+------------+-----------------+
 
 
@@ -452,15 +452,15 @@ No paths to report.
 +-------------+------------+-------+-------+------------+-----------------+
 ; Data Port   ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-------------+------------+-------+-------+------------+-----------------+
-; SENHA_A[*]  ; START      ; 3.208 ; 3.208 ; Fall       ; START           ;
-;  SENHA_A[0] ; START      ; 3.407 ; 3.407 ; Fall       ; START           ;
-;  SENHA_A[1] ; START      ; 3.356 ; 3.356 ; Fall       ; START           ;
-;  SENHA_A[2] ; START      ; 3.208 ; 3.208 ; Fall       ; START           ;
-;  SENHA_A[3] ; START      ; 3.410 ; 3.410 ; Fall       ; START           ;
-; SENHA_B[*]  ; START      ; 3.248 ; 3.248 ; Fall       ; START           ;
-;  SENHA_B[0] ; START      ; 3.414 ; 3.414 ; Fall       ; START           ;
-;  SENHA_B[1] ; START      ; 3.354 ; 3.354 ; Fall       ; START           ;
-;  SENHA_B[2] ; START      ; 3.248 ; 3.248 ; Fall       ; START           ;
+; SENHA_A[*]  ; START      ; 3.208 ; 3.208 ; Rise       ; START           ;
+;  SENHA_A[0] ; START      ; 3.407 ; 3.407 ; Rise       ; START           ;
+;  SENHA_A[1] ; START      ; 3.356 ; 3.356 ; Rise       ; START           ;
+;  SENHA_A[2] ; START      ; 3.208 ; 3.208 ; Rise       ; START           ;
+;  SENHA_A[3] ; START      ; 3.410 ; 3.410 ; Rise       ; START           ;
+; SENHA_B[*]  ; START      ; 3.248 ; 3.248 ; Rise       ; START           ;
+;  SENHA_B[0] ; START      ; 3.414 ; 3.414 ; Rise       ; START           ;
+;  SENHA_B[1] ; START      ; 3.354 ; 3.354 ; Rise       ; START           ;
+;  SENHA_B[2] ; START      ; 3.248 ; 3.248 ; Rise       ; START           ;
 +-------------+------------+-------+-------+------------+-----------------+
 
 
@@ -502,7 +502,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 32-bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Nov  7 02:36:06 2025
+    Info: Processing started: Fri Nov  7 07:49:30 2025
 Info: Command: quartus_sta projeto_final -c projeto_final
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -540,9 +540,9 @@ Info (332001): The selected device family is not supported by the report_metasta
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 32-bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 296 megabytes
-    Info: Processing ended: Fri Nov  7 02:36:06 2025
-    Info: Elapsed time: 00:00:00
+    Info: Peak virtual memory: 300 megabytes
+    Info: Processing ended: Fri Nov  7 07:49:31 2025
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

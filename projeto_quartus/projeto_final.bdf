@@ -87,7 +87,7 @@ applicable agreement for further details.
 	(output)
 	(rect 776 336 952 352)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
-	(text "LED[2..0]" (rect 90 0 136 11)(font "Arial" ))
+	(text "LEDR[2..0]" (rect 90 0 144 11)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -103,7 +103,7 @@ applicable agreement for further details.
 	(output)
 	(rect 776 352 952 368)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
-	(text "LED[6..3]" (rect 90 0 136 11)(font "Arial" ))
+	(text "LEDR[6..3]" (rect 90 0 144 11)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))

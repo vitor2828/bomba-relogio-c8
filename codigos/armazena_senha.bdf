@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 280 264 448 280)
+	(rect 8 264 176 280)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
 	(text "START" (rect 5 0 42 11)(font "Arial" ))
 	(pt 168 8)
@@ -187,6 +187,31 @@ applicable agreement for further details.
 		(rectangle (rect 16 16 136 96))
 	)
 )
+(symbol
+	(rect 216 256 264 288)
+	(text "NOT" (rect 1 0 22 10)(font "Arial" (font_size 6)))
+	(text "inst5" (rect 3 21 27 32)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 16 18)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 16 18)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 53 18)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 53 18)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
+	)
+)
 (connector
 	(pt 664 256)
 	(pt 736 256)
@@ -222,14 +247,6 @@ applicable agreement for further details.
 	(pt 496 272)
 )
 (connector
-	(pt 448 272)
-	(pt 496 272)
-)
-(connector
-	(pt 496 272)
-	(pt 512 272)
-)
-(connector
 	(pt 664 144)
 	(pt 736 144)
 	(bus)
@@ -238,6 +255,18 @@ applicable agreement for further details.
 	(pt 512 176)
 	(pt 448 176)
 	(bus)
+)
+(connector
+	(pt 176 272)
+	(pt 216 272)
+)
+(connector
+	(pt 264 272)
+	(pt 496 272)
+)
+(connector
+	(pt 496 272)
+	(pt 512 272)
 )
 (junction (pt 480 256))
 (junction (pt 496 272))
