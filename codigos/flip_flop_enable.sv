@@ -1,7 +1,7 @@
-module ffd (input logic d, en, clk
-            input logic q);
+module ffd(input logic d, en, clk,
+            output logic q);
 
-always_ff(posedge clk, posedge en)
+always_ff@(posedge clk, posedge en)
     if (en) q <= d;
 
 endmodule

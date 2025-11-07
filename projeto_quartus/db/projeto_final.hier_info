@@ -1,0 +1,50 @@
+|armazena_senha
+SENHA_A[0] <= register_senha_A:registrador_senha_A.q[0]
+SENHA_A[1] <= register_senha_A:registrador_senha_A.q[1]
+SENHA_A[2] <= register_senha_A:registrador_senha_A.q[2]
+SENHA_A[3] <= register_senha_A:registrador_senha_A.q[3]
+CLOCK => register_senha_A:registrador_senha_A.clk
+CLOCK => register_senha_B:inst.clk
+START => register_senha_A:registrador_senha_A.en
+START => register_senha_B:inst.en
+SW[11] => register_senha_B:inst.d[0]
+SW[12] => register_senha_B:inst.d[1]
+SW[13] => register_senha_B:inst.d[2]
+SW[14] => register_senha_A:registrador_senha_A.d[0]
+SW[15] => register_senha_A:registrador_senha_A.d[1]
+SW[16] => register_senha_A:registrador_senha_A.d[2]
+SW[17] => register_senha_A:registrador_senha_A.d[3]
+SENHA_B[0] <= register_senha_B:inst.q[0]
+SENHA_B[1] <= register_senha_B:inst.q[1]
+SENHA_B[2] <= register_senha_B:inst.q[2]
+
+
+|armazena_senha|register_senha_A:registrador_senha_A
+clk => ~NO_FANOUT~
+en => q[0]$latch.LATCH_ENABLE
+en => q[1]$latch.LATCH_ENABLE
+en => q[2]$latch.LATCH_ENABLE
+en => q[3]$latch.LATCH_ENABLE
+d[0] => q[0]$latch.DATAIN
+d[1] => q[1]$latch.DATAIN
+d[2] => q[2]$latch.DATAIN
+d[3] => q[3]$latch.DATAIN
+q[0] <= q[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|armazena_senha|register_senha_B:inst
+clk => ~NO_FANOUT~
+en => q[0]$latch.LATCH_ENABLE
+en => q[1]$latch.LATCH_ENABLE
+en => q[2]$latch.LATCH_ENABLE
+d[0] => q[0]$latch.DATAIN
+d[1] => q[1]$latch.DATAIN
+d[2] => q[2]$latch.DATAIN
+q[0] <= q[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
