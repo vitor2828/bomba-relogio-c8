@@ -1,0 +1,13 @@
+o circuito para comparar a senha do jogador com a senha correta sera
+semelhante.
+
+Para a senha A, teremos um comparador de palavras de 4 bits,
+que retornara 1 caso seja igual aos bits armazenados nos
+registradores da senha A. Esse sinal sera utilizado para permitir
+a tentativa na senha B: podemos fazer isso com um comparador com enable
+que sera acionado apenas quando a senha A ja tiver sido descoberta.
+
+Podemos usar flip-flops para armazenar os valores depois do ENTER
+ser pressionado também. Sendo assim, podemos usar flip-flops com enables
+no ENTER, cujos valores serao armazenados apenas caso positivo. Depos disso,
+fazer o processo de comparacao acima.
